@@ -1,24 +1,3 @@
-# import random
-# a = ["Shara","Shina","Take","Saya","Alihan","Almas","Aiay","Mukh","Madina"]
-# b = 5
-# c = ["Dauren","Daulet","Alisher","Daryn","Nuris"]
-# random.shuffle(c)
-# def make_random_groups(a , b , c):
-#     # Shuffle list of students
-#     random.shuffle(a)
-#     # Create groups
-#     all = []
-#     for i in range(b):
-#         group = a[i::b]
-#         all.append(group)
-#
-#     # Format and display groups
-#     for i, group in enumerate(all):
-#         print(c[i] , '/'.join(group),sep="---->")
-#
-# make_random_groups(a , b , c)
-#
-
 import operator
 import random
 import turtle
